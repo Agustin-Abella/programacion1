@@ -14,17 +14,7 @@ int sacarAprobacion(int notaMinima, int nota);
 void claseUnoRepaso(void);
 int main()
 {
-    int estaAprobado;
-    int nota;
-    estaAprobado=sacarAprobacion(6,nota);
-    if (estaAprobado == 1)
-    {
-        printf("esta aprobado");
-    }
-    else{
-        printf("no esta aprobado");
-    }
-
+    void claseUnoRepaso(void);
     return 0;
 
 }
@@ -62,4 +52,18 @@ void claseUnoRepaso(void)
      int contadorDeNoAprobados;
      float promedioTotal;
      float promedioDeNoAprobados;
+
+
+     int estaAprobado;
+    int nota;
+    estaAprobado=sacarAprobacion(6,nota);
+    if (estaAprobado == 1)
+    {
+        printf("esta aprobado");
+    }
+    else{
+        printf("no esta aprobado");
+    }
+
+   // return 1;
 }
