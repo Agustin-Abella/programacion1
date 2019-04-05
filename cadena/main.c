@@ -9,8 +9,10 @@ int main()
    // int largo;
     int compara;
 
+    strlwr(otroNombre);
+
     //strcpy(nombre,otroNombre);
-    strncpy(nombre,otroNombre,10);
+    //strncpy(nombre,otroNombre,10);
 
     //printf("ingrese su nombre: ");
     //fgets(nombre,50,stdin);
@@ -33,3 +35,6 @@ int main()
 
     return 0;
 }
+
+
+//1nombre   2apellido       3apellidoynombre Agustin, Agustin Cesar
